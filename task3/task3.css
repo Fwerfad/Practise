@@ -1,0 +1,57 @@
+.classDivHeader{
+    height: 100px;
+    background-color: aqua;
+    text-align: center
+}
+.classText1{
+    font-size: 88px;
+    position: relative;
+    color: black;
+}
+.classDivFirst{
+     height: 52px;
+     background-color: deepskyblue;
+     text-align: center
+ }
+.classDivSecond{
+    height: 46px;
+    width: 100px;
+    text-align: center;
+    background-color: deepskyblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 20px;
+    position:relative;
+    top:-23px;
+}
+.classDivSecond:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 2px 1px rgba(0, 0, 0, 0.22);
+    transition: .2s ease;
+}
+.classDivSecondSpecial {
+    height: 46px;
+    width: 100px;
+    text-align: center;
+    background-color: deepskyblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+.classDivSecondSpecial:hover {
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 2px 1px rgba(0, 0, 0, 0.22);
+     transition: .2s ease;
+ }
+.classDivBody {
+    background: no-repeat url("img/3.png") center;
+    min-height: 1400px;
+}
+.classDivInnerBody {
+    position: relative;
+    border: 2px solid black;
+    top: 10px;
+    height: 1360px;
+    width: 425px;
+    background-Color:deepskyblue;
+}

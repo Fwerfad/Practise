@@ -1,0 +1,70 @@
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Задание2</title>
+    <script src="main.js"></script>
+    <style>
+        @import url("style.css");
+    </style>
+</head>
+<body>
+<H1>Регистрация</H1>
+<H>&nbsp</H>
+<FORM NAME="registration" action="" class="class2">
+    <TABLE>
+        <TR><TD><B>Логин:</B></TD>
+            <TD><INPUT NAME="Id" SIZE=20 placeholder="Логин"
+                       onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+        <TR><TD><B>Пароль:</B></TD>
+            <TD><INPUT TYPE="password" NAME="Pwd" SIZE=20 placeholder="Пароль"
+                       onFocus="this.select();"></TD></TR>
+        <TR><TD><B>Проверка пароля:</B></TD>
+            <TD><INPUT TYPE="password" NAME="PwdCheck" SIZE=20 placeholder="Пароль"
+                       onFocus="this.select();"></TD></TR>
+    </TABLE>
+    <INPUT TYPE="button" VALUE="Готово" onClick="Registration();">
+    <INPUT TYPE="reset" VALUE="Сброс">
+</FORM>
+<FORM NAME="radio" align=right class="class1">
+    <INPUT TYPE="RADIO"  NAME="Sex" VALUE ="Man" CHECKED>Мужской
+    <INPUT TYPE="RADIO"  NAME="Sex" VALUE ="Woman">Женский
+    <BR>Состояние переключателей можно изменить и этой кнопкой
+    <INPUT TYPE="button" VALUE="Смена состояния" onClick="btnClick();">
+</FORM>
+<FORM NAME="checkbox" class="class2">
+    Флажок <INPUT TYPE="checkbox" NAME="ch">
+    <BR>Состояние флажка можно изменить и этой кнопкой
+    <INPUT TYPE="button" VALUE="Смена состояния"
+           onClick="document.checkbox.ch.click();">
+</FORM>
+<FORM NAME="list1" align=right class="class1">
+    <SELECT NAME="drinks">
+        <OPTION VALUE="tea" SELECTED>Чай
+        <OPTION VALUE ="coffee">Кофе
+        <OPTION VALUE ="milk">Молоко
+        <OPTION VALUE ="cocoa">Какао
+        <OPTION VALUE ="juice">Сок
+    </SELECT>
+</FORM>
+<FORM NAME="list2" class="class2">
+    <SELECT NAME="drinks" SIZE=5>
+        <OPTION VALUE="tea" SELECTED>Чай
+        <OPTION VALUE ="coffee">Кофе
+        <OPTION VALUE ="milk">Молоко
+        <OPTION VALUE ="cocoa">Какао
+        <OPTION VALUE ="juice">Сок
+    </SELECT>
+</FORM>
+<FORM action="" align="right" class="class3">
+    <p><input name="user" required placeholder="Ваше имя"></p>
+    <p><input type="submit" value="Отправить"></p>
+</FORM>
+<form align="center">
+    <input id="a" class="entry" type="text" placeholder="Значение 1"><br>
+    <input id="b" class="entry" type="text" placeholder="Значение 2"><br>
+    <input type="button" class="button" value="Сложить 2 два числа" onclick="addition();"><br>
+</form>
+<div id="result" class="result"></div>
+</body>
+</html>

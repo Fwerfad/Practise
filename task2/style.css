@@ -1,0 +1,63 @@
+.class1{
+    position: relative;
+    font-family: "Comic Sans MS", sans-serif;
+    top: -100px;
+}
+.class2{
+    position: relative;
+    font-family: "fantasy", sans-serif;
+    top: -50px;
+}
+.class3{
+    position: relative;
+    top: -125px;
+}
+.result{
+    padding: 20px;
+    margin: 10px;
+    background: aquamarine;
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 133px;
+    height: 10px;
+    font-size: 16px;
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .2s ease;
+    position: relative;
+    left:847px;
+    top:-10px;
+}
+.result:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 2px 1px rgba(0, 0, 0, 0.22);
+    transition: .2s ease;
+    left: 842px;
+    background: darkblue;
+    border: 2px solid orangered;
+    color: azure;
+}
+.button{
+    width: 175px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    transition: .2s ease;
+    font-size: 16px;
+    position: relative;
+    left: -8px;
+}
+.button:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 2px 1px rgba(0, 0, 0, 0.22);
+    transition: .2s ease;
+    left: -13px;
+    color: green;
+}
+.button:active {
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25), inset 0 2px 1px rgba(0, 0, 0, 0.22);
+    transition: .2s ease;
+}
+.entry {
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+}
