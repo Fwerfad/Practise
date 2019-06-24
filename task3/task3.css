@@ -50,13 +50,14 @@
 }
 .inner {
     background-color: cornflowerblue;
-    margin: 0 auto;
  }
 .hm-item {
     display: inline-block;
     padding: 16px;
+    margin: 10px;
     position:relative;
     left:100px;
+    color:white;
 }
 
 .hm-item:hover {
