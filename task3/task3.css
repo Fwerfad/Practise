@@ -45,8 +45,6 @@
 }
 .headerMenu{
     width: auto;
-    margin: 73px 0 auto;
-    text-align: center;
 }
 .inner {
     background-color: cornflowerblue;
@@ -59,7 +57,17 @@
     left:100px;
     color:white;
 }
-
 .hm-item:hover {
+    background-color: dodgerblue;
+}
+.hm-item-special {
+    display: inline-block;
+    padding: 16px;
+    margin: 10px;
+    position:relative;
+    left:510px;
+    color:white;
+}
+.hm-item-special:hover {
     background-color: dodgerblue;
 }
