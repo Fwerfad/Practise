@@ -3,6 +3,7 @@ body {
     position: relative;
     left: -8px;
     top: -8px;
+    width: 100%;
 }
 .header{
     background-color: blue;
