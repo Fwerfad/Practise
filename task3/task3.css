@@ -46,11 +46,9 @@
 .headerMenu{
     width: auto;
     margin: 73px 0 auto;
-    background-color: blue;
     text-align: center;
 }
-.header-menu .inner {
-    width: 1260px;
+.inner {
     background-color: cornflowerblue;
     margin: 0 auto;
  }
