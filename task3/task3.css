@@ -1,57 +1,66 @@
-.classDivHeader{
-    height: 100px;
-    background-color: aqua;
-    text-align: center
+.header{
+    background-color: blue;
+    height: 80px;
 }
-.classText1{
-    font-size: 88px;
+.headerLogo{
     position: relative;
-    color: black;
-}
-.classDivFirst{
-     height: 52px;
-     background-color: deepskyblue;
-     text-align: center
- }
-.classDivSecond{
-    height: 46px;
-    width: 100px;
-    text-align: center;
-    background-color: deepskyblue;
-    border: 2px solid black;
-    border-radius: 10px;
-    display: inline-block;
-    font-size: 20px;
-    position:relative;
-    top:-23px;
-}
-.classDivSecond:hover {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 2px 1px rgba(0, 0, 0, 0.22);
-    transition: .2s ease;
-}
-.classDivSecondSpecial {
-    height: 46px;
-    width: 100px;
-    text-align: center;
-    background-color: deepskyblue;
-    border: 2px solid black;
-    border-radius: 10px;
-    display: inline-block;
-    font-size: 20px;
-}
-.classDivSecondSpecial:hover {
-     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 2px 1px rgba(0, 0, 0, 0.22);
-     transition: .2s ease;
- }
-.classDivBody {
-    background: no-repeat url("img/3.png") center;
-    min-height: 1400px;
-}
-.classDivInnerBody {
-    position: relative;
-    border: 2px solid black;
     top: 10px;
-    height: 1360px;
-    width: 425px;
-    background-Color:deepskyblue;
+    left: 110px;
+}
+.headerTittle{
+    position: relative;
+    left: 110px;
+    color: white;
+    font-family: "Comic Sans MS", sans-serif;
+    text-transform:uppercase;
+    font-size:20px;
+    padding:10px
+}
+.headerTittleAddition {
+    position: relative;
+    padding:10px;
+    left: 110px;
+    color: white;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size:20px;
+}
+.search{
+    position:relative;
+    left: 1400px;
+    top: -50px;
+    max-width: 180px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 20px;
+}
+.search input {
+    background-color: dodgerblue;
+    color: white;
+    border:0px;
+}
+::placeholder{
+    color:white
+}
+.headerMenu{
+    width: auto;
+    margin: 73px 0 auto;
+    background-color: blue;
+    text-align: center;
+}
+.header-menu .inner {
+    width: 1260px;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+ }
+.hm-item {
+    display: inline-block;
+    padding: 16px;
+    position:relative;
+    left:100px;
+}
+
+.hm-item:hover {
+    background-color: dodgerblue;
 }
