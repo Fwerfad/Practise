@@ -4,10 +4,15 @@ body {
     left: -8px;
     top: -8px;
     width: 100%;
+    text-align: center;
 }
 .header{
     background-color: blue;
     height: 80px;
+}
+.headerAdditional{
+    position: relative;
+    left:-285px;
 }
 .headerLogo{
     position: relative;
@@ -27,7 +32,7 @@ body {
 }
 .search{
     position:relative;
-    left: 1400px;
+    left: 1700px;
     top: -20px;
     max-width: 180px;
     background-color: dodgerblue;
@@ -55,8 +60,8 @@ body {
     margin-left: 5px;
     margin-right: 5px;
     position:relative;
-    left:100px;
     color:white;
+    left:-20px;
 }
 .hm-item:hover {
     background-color: dodgerblue;
@@ -67,7 +72,7 @@ body {
     margin-left: 5px;
     margin-right: 5px;
     position:relative;
-    left:510px;
+    left:50px;
     color:white;
 }
 .hm-item-special:hover {
@@ -77,7 +82,7 @@ body {
     position: relative;
     text-align: center;
     height: 550px;
-    min-width: 1260px;
+    background-size:auto;
     color: ivory;
     background: no-repeat url("img/background.png") center;
     padding: 16px 0;
@@ -90,6 +95,7 @@ body {
 }
 .introInfo{
     max-width: 1200px;
+    text-align: center;
     font-size: 26px;
     padding: 50px;
     position: relative;
@@ -162,7 +168,7 @@ body {
     margin: 10px;
     position: relative;
     left: 200px;
-    top: -50px;
+    top: -100px;
     text-align: left;
     font-size: 20px;
 }
