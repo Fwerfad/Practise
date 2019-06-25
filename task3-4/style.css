@@ -1,14 +1,12 @@
 body {
     font-family: "Arial", sans-serif;
-    position: relative;
-    left: -8px;
-    top: -8px;
     text-align: center;
 }
 .header{
     background-color: blue;
     height: 80px;
     background-size:auto;
+    min-width: 1980px;
 }
 .headerAdditional{
     alignment: center;
@@ -57,10 +55,12 @@ body {
     color:white
 }
 .headerMenu{
-    width: auto;
+    height: 70px;
+    min-width: 1980px;
 }
 .inner{
     background-color: cornflowerblue;
+    alignment: top;
  }
 .hm-item {
     display: inline-block;
@@ -87,6 +87,7 @@ body {
     background-color: dodgerblue;
 }
 .intro{
+    min-width: 1980px;
     position: relative;
     height: 550px;
     background-size:auto;
@@ -125,6 +126,7 @@ body {
 .announcement{
     text-align: center;
     margin-top: 20px;
+    min-width: 1980px;
 }
 .announcementArrows{
     display: inline-block;

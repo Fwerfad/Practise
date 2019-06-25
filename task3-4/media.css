@@ -1,0 +1,33 @@
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .hm-item{
+        padding: 4px;
+    }
+    .hm-item-special{
+         padding: 4px;
+    }
+    .headerMenu{
+        height: 24px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hm-item{
+        padding: 4px;
+    }
+    .hm-item-special{
+         padding: 4px;
+    }
+    .headerMenu{
+        height: 24px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .hm-item{
+        padding: 10px;
+    }
+    .hm-item-special{
+        padding: 10px;
+    }
+    .headerMenu{
+        height: 38px;
+    }
+}
