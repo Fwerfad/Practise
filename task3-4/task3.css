@@ -3,16 +3,19 @@ body {
     position: relative;
     left: -8px;
     top: -8px;
-    width: 100%;
     text-align: center;
 }
 .header{
     background-color: blue;
     height: 80px;
+    background-size:auto;
 }
 .headerAdditional{
-    position: relative;
-    left:-285px;
+    alignment: center;
+}
+.headerText{
+    position:relative;
+    left:-280px;
 }
 .headerLogo{
     position: relative;
@@ -31,19 +34,24 @@ body {
     font-size:20px;
 }
 .search{
-    position:relative;
-    left: 1700px;
-    top: -20px;
+    display: inline-block;
+    position: relative;
+    top:-20px;
+    left:560px;
     max-width: 180px;
     background-color: dodgerblue;
     color: white;
     border-radius: 20px;
-    padding: 5px
+    padding: 5px;
 }
 .search input {
     background-color: dodgerblue;
     color: white;
-    border:0px;
+    border:1px;
+}
+.pseudosearch{
+    position: relative;
+    display: inline-block;
 }
 ::placeholder{
     color:white
@@ -80,27 +88,23 @@ body {
 }
 .intro{
     position: relative;
-    text-align: center;
     height: 550px;
     background-size:auto;
     color: ivory;
-    background: no-repeat url("img/background.png") center;
+    background:  url("img/background.png") center;
     padding: 16px 0;
 }
 .introHeader{
     font-size: 80px;
     padding: 50px;
-    position: relative;
-    left: -50px;
 }
 .introInfo{
-    max-width: 1200px;
-    text-align: center;
-    font-size: 26px;
+    display: inline-block;
+    font-size: 20px;
     padding: 50px;
-    position: relative;
-    top: -80px;
-    left: 200px;
+    max-width: 1200px;
+    position:relative;
+    top:-80px;
 }
 .introNav{
     position:relative;
@@ -115,12 +119,12 @@ body {
     text-align: center;
 }
 .nav:hover{
-
     background-color: rgba(0,0,0,0.3);
     border-radius: 10px;
 }
 .announcement{
     text-align: center;
+    margin-top: 20px;
 }
 .announcementArrows{
     display: inline-block;
