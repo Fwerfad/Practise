@@ -1,4 +1,49 @@
-@media screen and (min-width: 0px) and (max-width: 1250px) {
+@media screen and (min-width: 0px) and (max-width: 650px) {
+    .header{
+        min-width: 635px;
+        height: 40px;
+    }
+    .headerText{
+        position:relative;
+        left:-110px;
+        top:-18px;
+    }
+    .headerTittle{
+        font-size:10px;
+    }
+    .search{
+        left:136px;
+        top:-38px;
+        border-radius: 0;
+        padding: 0;
+        max-width: 0;
+    }
+    .headerMenu{
+        min-width: 635px;
+        height: 20px;
+    }
+    .inner{
+        background-color: cornflowerblue;
+        position: relative;
+    }
+    .hm-item {
+        padding: 0px;
+        margin:2px;
+        position:relative;
+        color:white;
+        left:-4px;
+        font-size:12px;
+    }
+    .hm-item-special {
+        padding: 0px;
+        margin:2px;
+        position:relative;
+        color:white;
+        left:0;
+        font-size:14px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 1250px) {
     .hm-item{
         padding: 4px;
     }
