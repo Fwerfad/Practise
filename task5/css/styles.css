@@ -89,3 +89,10 @@ img {
 .redLine{
     min-width: 300px;
 }
+.arr{
+    position:relative;
+    top:100px;
+}
+.bottom{
+    margin-top:20px;
+}

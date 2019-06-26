@@ -21,11 +21,24 @@
         top:-100px;
         left:-100px;
     }
+    .quotesText{
+        font-size:6px;
+    }
+    .bottom{
+        font-size:6px;
+    }
+    .arr{
+        top:20px;
+    }
+    .bottom2{
+        position: relative;
+        top:-10px;
+    }
 }
 
 @media screen and (min-width: 651px) and (max-width: 1000px) {
     .headerText{
-        font-size: 10px;
+        font-size: 8px;
     }
     img {
         max-width: 70%;
@@ -44,6 +57,12 @@
         position:relative;
         top:-100px;
         left:-30px;
+    }
+    .quotesText{
+        font-size:10px;
+    }
+    .bottom{
+        font-size:10px;
     }
 }
 @media screen and (min-width: 1001px) and (max-width: 1250px) {
@@ -68,6 +87,12 @@
         top:-100px;
         left:-40px;
     }
+    .quotesText{
+        font-size:12px;
+    }
+    .bottom{
+        font-size:12px;
+    }
 }
 @media screen and (min-width: 1251px) and (max-width: 1600px) {
     .headerText{
@@ -81,5 +106,11 @@
         position:relative;
         top:-100px;
         left:-50px;
+    }
+    .quotesText{
+        font-size:16px;
+    }
+    .bottom{
+        font-size:16px;
     }
 }
