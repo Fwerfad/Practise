@@ -131,6 +131,10 @@ body {
     background-color: rgba(0,0,0,0.3);
     border-radius: 10px;
 }
+.navSpec:hover{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
 .announcement{
     text-align: center;
     margin-top: 20px;

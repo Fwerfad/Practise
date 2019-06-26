@@ -42,6 +42,109 @@
         left:0;
         font-size:14px;
     }
+    .intro{
+        min-width: 635px;
+        height: 750px;
+    }
+    .introHeader{
+        position: relative;
+        padding:0;
+        margin-left:50px;
+        margin-right:50px;
+        margin-bottom:10px;
+    }
+    .introInfo{
+        display: inline-block;
+        font-size: 20px;
+        padding: 0px;
+        max-width: 635px;
+        position:relative;
+        top:0px;
+    }
+    .introNav{
+        position:relative;
+        top: 0px;
+        left: 0px;
+        max-width: 635px;
+    }
+    .nav{
+        margin-left: 60px;
+        margin-right: 60px;
+        padding: 10px;
+    }
+    .navSpec{
+        margin-left: 60px;
+        margin-right: 60px;
+        padding: 10px;
+        position: relative;
+        left:-30px;
+        top:0;
+    }
+    .announcement{
+        text-align: center;
+        margin-top: 20px;
+        min-width: 635px;
+    }
+    .quotes{
+        position: relative;
+        left:-200px;
+        text-align: left;
+    }
+    .t1{
+        max-width: 260px;
+        font-size: 12px;
+        position: relative;
+        top:-40px;
+        left:140px;
+    }
+    .arrow2{
+        position: relative;
+        top:-199px;
+        left:465px;
+    }
+    .tittle{
+        position: relative;
+        left:450px;
+        top:-60px;
+    }
+    .textfix{
+        position: relative;
+        left:450px;
+        top:-60px;
+    }
+    .bottom{
+        min-width: 635px;
+    }
+
+    .contacts1{
+        width: 200px;
+        height: 100px;
+        left: 0px;
+        text-align: left;
+        top: 2px;
+    }
+    .contacts2{
+        top: 20px;
+        color: white;
+        width: 200px;
+        height: 100px;
+        background-color: transparent;
+        position: relative;
+        left: -100px;
+        padding: 20px;
+    }
+    .announcementArrow1{
+        display: inline-block;
+        position:relative;
+        top:-200px;
+        left:-240px;
+    }
+    .announcementArrow2{
+        display: inline-block;
+        position:relative;
+        top:-200px;
+        left:240px;
+    }
 }
 @media screen and (min-width: 651px) and (max-width: 1250px) {
     .hm-item{
