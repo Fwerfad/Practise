@@ -22,8 +22,9 @@ img {
     color:white;
 }
 .introHeader{
-    font-size: 60px;
-    padding: 40px;
+    font-size: 50px;
+    padding-top:20px;
+    padding-bottom:20px;
     box-sizing: content-box;
 }
 .introInfo{

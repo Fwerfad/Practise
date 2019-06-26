@@ -157,6 +157,12 @@
     }
 }
 @media screen and (min-width: 651px) and (max-width: 1250px) {
+    .announcementBoxes{
+        text-align: center;
+        max-width: 1050px;
+        position: relative;
+        left:100px;
+    }
     .hm-item{
         padding: 4px;
     }
@@ -212,12 +218,6 @@
     .t1{
         max-width: 500px;
         font-size: 16px;
-    }
-    .announcementBoxes{
-        text-align: center;
-        max-width: 1050px;
-        position: relative;
-        left:100px;
     }
 }
 @media screen and (min-width: 1251px) and (max-width: 1600px) {
