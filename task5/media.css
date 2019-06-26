@@ -5,6 +5,9 @@
     img {
         max-width: 50%;
     }
+    .navtool{
+        font-size:10px;
+    }
 }
 @media screen and (min-width: 601px) and (max-width: 650px) {
     .headerText{
@@ -12,6 +15,9 @@
     }
     img {
         max-width: 60%;
+    }
+    .navtool{
+        font-size:10px;
     }
 }
 
@@ -22,6 +28,9 @@
     img {
         max-width: 70%;
     }
+    .navtool{
+        font-size:10px;
+    }
 }
 @media screen and (min-width: 1001px) and (max-width: 1250px) {
     .headerText{
@@ -29,6 +38,9 @@
     }
     img {
         max-width: 80%;
+    }
+    .navtool{
+        font-size:10px;
     }
 }
 @media screen and (min-width: 1251px) and (max-width: 1600px) {
