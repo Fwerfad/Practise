@@ -27,12 +27,18 @@
     .bottom{
         font-size:6px;
     }
+    .helper{
+        font-size: 3px;
+    }
     .arr{
         top:20px;
     }
     .bottom2{
         position: relative;
         top:-10px;
+    }
+    .headerNavText{
+        font-size:10px;
     }
 }
 
@@ -64,6 +70,9 @@
     .bottom{
         font-size:10px;
     }
+    .helper{
+        font-size: 5px;
+    }
 }
 @media screen and (min-width: 1001px) and (max-width: 1250px) {
     .headerText{
@@ -93,6 +102,9 @@
     .bottom{
         font-size:12px;
     }
+    .helper{
+        font-size: 6px;
+    }
 }
 @media screen and (min-width: 1251px) and (max-width: 1600px) {
     .headerText{
@@ -112,5 +124,8 @@
     }
     .bottom{
         font-size:16px;
+    }
+    .helper{
+        font-size: 8px;
     }
 }

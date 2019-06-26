@@ -97,3 +97,15 @@ img {
 .bottom{
     margin-top:20px;
 }
+.helper{
+    font-size:10px;
+    position: relative;
+    top:-10px;
+}
+.mainbottom{
+    margin-top:20px;
+    background-color:#2D2D2D;
+    max-width: 1920px;
+    height:auto;
+    color:white
+}
