@@ -64,3 +64,28 @@ img {
     top:-100px;
     left:1100px;
 }
+
+.announcementBoxes{
+    text-align: center;
+}
+.announcementBox{
+    display: inline-block;
+    margin: 10px;
+    padding:5px;
+    border: 1px solid darkgray;
+}
+.announcementBox:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+.announcementRedText {
+    margin:20px;
+    color: red;
+    font-size:26px;
+    text-align: center;
+}
+.loneArrow{
+    margin: 50px;
+}
+.redLine{
+    min-width: 300px;
+}
