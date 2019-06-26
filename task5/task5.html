@@ -9,26 +9,22 @@
     <link rel="stylesheet" href="media.css">
     <script src="js/bootstrap.min.js"></script></head>
 <body>
-<nav class="navbar  navbar-default" style="background-color:blue;">
-    <div class="row">
-        <div class="col-lg-4 col-sm-4">
-            <a class="navbar-brand headerImg" href="#">
-                <img src="img/1.png" alt="logo"  width="400" height="60">
-            </a>
-        </div>
-        <div class="col-lg-7 col-sm-4">
-            <a class="navbar-brand headerText" href="#">
-                Электронная информационно-образовательная среда
-            </a>
-        </div>
-        <div class="col-lg-1 col-sm-4">
-            <form class="form-search" method="get" id="s" action="/">
-                <div class="input-append" style="width:50px; background-color:dodgerblue;">
-                    <input style="background-color: dodgerblue;color: white;border:1px;" type="text" class="input-medium search-query" name="s" placeholder="Поиск" value="">
-                </div>
-            </form>
-        </div>
+<div class="row" style="background-color:blue;">
+    <div class="col-md-4 ">
+        <a class="navbar-brand headerImg" href="#">
+            <img src="img/1.png" alt="logo"  width="400" height="60">
+        </a>
     </div>
-</nav>
+    <div class="col-md-5">
+        <a class="navbar-brand headerText" href="#">
+            Электронная информационно-образовательная среда
+        </a>
+    </div>
+    <div class="col-md-3">
+        <form role="form">
+            <input type="search" style="background-color: dodgerblue; border-color: dodgerblue;width: 100%;height: 90%;position:relative;top:1px" class="form-control" id="search" placeholder="Поиск">
+        </form>
+    </div>
+</div>
 </body>
 </html>

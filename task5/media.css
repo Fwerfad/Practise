@@ -2,33 +2,40 @@
     .headerText{
         font-size: 8px;
     }
+    img {
+        max-width: 50%;
+    }
 }
 @media screen and (min-width: 601px) and (max-width: 650px) {
     .headerText{
         font-size: 8px;
-        position: relative;
-        left:-30px;
+    }
+    img {
+        max-width: 60%;
     }
 }
 
 @media screen and (min-width: 651px) and (max-width: 1000px) {
     .headerText{
         font-size: 10px;
-        position: relative;
-        left:-30px;
+    }
+    img {
+        max-width: 70%;
     }
 }
 @media screen and (min-width: 1001px) and (max-width: 1250px) {
     .headerText{
         font-size: 14px;
-        position: relative;
-        left:-30px;
+    }
+    img {
+        max-width: 80%;
     }
 }
 @media screen and (min-width: 1251px) and (max-width: 1600px) {
     .headerText{
         font-size: 18px;
-        position: relative;
-        top:5px;
+    }
+    img {
+        max-width: 90%;
     }
 }
