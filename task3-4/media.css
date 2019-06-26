@@ -27,16 +27,26 @@
         position: relative;
     }
     .hm-item {
-        padding: 0px;
-        margin:2px;
+        padding-top:3px;
+        padding-bottom:3px;
+        padding-left:0px;
+        padding-right:0px;
+        margin-left:2px;
+        margin-right:2px;
         position:relative;
         color:white;
         left:-4px;
         font-size:12px;
+        top:-0.8px;
+        box-sizing: content-box;
     }
     .hm-item-special {
-        padding: 0px;
-        margin:2px;
+        padding-top:2px;
+        padding-bottom:2px;
+        padding-left:0px;
+        padding-right:0px;
+        margin-left:2px;
+        margin-right:2px;
         position:relative;
         color:white;
         left:0;
